@@ -1,0 +1,14 @@
+body {
+  background-color: #cccccc; }
+
+h1, p.super-special {
+  font-family: Times, serif;
+  color: green; }
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: yellow; }
+  p.special-p, p.super-special {
+    font-size: 25px; }
+
+/*# sourceMappingURL=styles.css.map */

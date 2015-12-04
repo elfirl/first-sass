@@ -1,0 +1,26 @@
+@import "variables";
+
+
+body {
+	background-color: #cccccc;
+}
+
+h1 {
+	font-family: $header-font;
+	color: $primary-color;
+}
+
+p {
+	font-family: $body-font;
+	color: $secondary-color;
+
+	// Selects the parent item with a class of special-p
+	&.special-p {
+		font-size: 25px;
+	}
+
+	&.super-special {
+		@extend .special-p;
+		@extend h1;
+	}
+}
